@@ -1,0 +1,29 @@
+# Foundry
+out/
+cache/
+lib/
+
+# NodeJS
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+*.o
+*.a

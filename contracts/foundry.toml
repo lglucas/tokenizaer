@@ -1,0 +1,19 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+cache_dir = "cache"
+
+# Compiler settings
+[profile.default.solc]
+version = "0.8.20"
+optimizer = true
+optimizer-runs = 200
+
+[profile.default.rpc_endpoints]
+polygon = "https://polygon-rpc.com/"
+polygonMumbai = "https://rpc-mumbai.maticvigil.com"
+
+[profile.default.etherscan]
+polygon = { key = "YOUR_POLYGONSCAN_KEY", url = "https://polygonscan.com/api" }
